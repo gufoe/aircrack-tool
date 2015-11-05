@@ -1,6 +1,6 @@
 {
   "name": "aircrack-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automates calls to aircrack commands to intercept wifi handshakes",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,15 @@
     "type": "git",
     "url": "https://github.com/gufoe/aircrack-tool"
   },
-  "os": ["linux"],
-  "keywords": ["aircrack", "wifi", "pentesting", "tool"],
+  "os": [
+    "linux"
+  ],
+  "keywords": [
+    "aircrack",
+    "wifi",
+    "pentesting",
+    "tool"
+  ],
   "bugs": {
     "url": "https://github.com/gufoe/aircrack-tool/issues"
   },
