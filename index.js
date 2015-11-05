@@ -121,19 +121,12 @@ function crack_wifi(wifi) {
       }
       child.kill();
       console.log('Captured handshake!');
-      console.log('Disabling monitor interface...');
-      disable_monitor(iface);
-      console.log('Enabling network-manager...')
-      enable_netman();
+      reset();
       console.log('Done. You have to manually proceed and crack the handshake '
           +'stored in '+file+' (es. aircrack-ng -w password.lst -b '+wifi.mac
           +' '+file+'-01.ivs)')
       process.exit(0);
     });
-  }
-
-  var disconnect = function() {
-
   }
 
   disable_netman();
