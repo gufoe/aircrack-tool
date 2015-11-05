@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs
+
 var
   wfscan = require('node-wifiscanner'),
   readline = require('readline'),

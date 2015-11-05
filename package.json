@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/gufoe/aircrack-tool/issues"
   },
+  "bin": {
+    "airtool": "./index.js"
+  },
   "author": "Giacomo Rizzi <gufoes@gmail.com>",
   "license": "ISC"
 }
