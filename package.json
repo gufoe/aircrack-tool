@@ -1,0 +1,25 @@
+{
+  "name": "aircrack-tool",
+  "version": "1.0.0",
+  "description": "Automates calls to aircrack commands to intercept wifi handshakes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-wifiscanner": "mauricesvay/node-wifiscanner",
+    "command-exists": "mathisonian/command-exists",
+    "minimist": "substack/minimist",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gufoe/aircrack-tool",
+  },
+  "os": ["linux"],
+  "keywords": ["aircrack", "wifi", "pentesting", "tool"],
+  "bugs": {
+    "url": "https://github.com/gufoe/aircrack-tool/issues",
+  },
+  "author": "Giacomo Rizzi <gufoes@gmail.com>",
+  "license": "ISC"
+}

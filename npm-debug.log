@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/jake/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/home/jake/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'login' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose adduser before first PUT { name: 'gufoe',
+4 verbose adduser   password: 'XXXXX',
+4 verbose adduser   email: 'gufoes@gmail.com',
+4 verbose adduser   _id: 'org.couchdb.user:gufoe',
+4 verbose adduser   type: 'user',
+4 verbose adduser   roles: [],
+4 verbose adduser   date: '2015-11-05T03:26:54.337Z' }
+5 verbose request where is /-/user/org.couchdb.user:gufoe
+6 verbose request registry https://registry.npmjs.org/
+7 verbose request id ddb399c47a29835f
+8 verbose url raw /-/user/org.couchdb.user:gufoe
+9 verbose url resolving [ 'https://registry.npmjs.org/',
+9 verbose url resolving   './-/user/org.couchdb.user:gufoe' ]
+10 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:gufoe
+11 verbose request where is https://registry.npmjs.org/-/user/org.couchdb.user:gufoe
+12 info trying registry request attempt 1 at 04:26:54
+13 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:gufoe
+14 http 400 https://registry.npmjs.org/-/user/org.couchdb.user:gufoe
+15 verbose headers { 'content-type': 'application/json',
+15 verbose headers   'cache-control': 'max-age=60',
+15 verbose headers   'content-length': '57',
+15 verbose headers   'accept-ranges': 'bytes',
+15 verbose headers   date: 'Thu, 05 Nov 2015 03:26:55 GMT',
+15 verbose headers   via: '1.1 varnish',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+15 verbose headers   'x-cache': 'MISS',
+15 verbose headers   'x-cache-hits': '0',
+15 verbose headers   'x-timer': 'S1446694014.536984,VS0,VE829' }
+16 verbose adduser back [ [Error: Unknown error while authenticating : -/user/org.couchdb.user:gufoe],
+16 verbose adduser   { ok: false, error: 'Unknown error while authenticating' },
+16 verbose adduser   '{"ok":false,"error":"Unknown error while authenticating"}' ]
+17 error Error: Unknown error while authenticating : -/user/org.couchdb.user:gufoe
+17 error     at RegClient.<anonymous> (/home/jake/.nvm/v0.10.40/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+17 error     at Request._callback (/home/jake/.nvm/v0.10.40/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+17 error     at Request.self.callback (/home/jake/.nvm/v0.10.40/lib/node_modules/npm/node_modules/request/request.js:236:22)
+17 error     at Request.emit (events.js:98:17)
+17 error     at Request.<anonymous> (/home/jake/.nvm/v0.10.40/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+17 error     at Request.emit (events.js:117:20)
+17 error     at IncomingMessage.<anonymous> (/home/jake/.nvm/v0.10.40/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+17 error     at IncomingMessage.emit (events.js:117:20)
+17 error     at _stream_readable.js:944:16
+17 error     at process._tickCallback (node.js:448:13)
+18 error If you need help, you may report this *entire* log,
+18 error including the npm and node versions, at:
+18 error     <http://github.com/npm/npm/issues>
+19 error System Linux 4.2.0-1-amd64
+20 error command "/home/jake/.nvm/v0.10.40/bin/node" "/home/jake/.nvm/v0.10.40/bin/npm" "login"
+21 error cwd /home/jake/.tmp/airtools
+22 error node -v v0.10.40
+23 error npm -v 1.4.28
+24 verbose exit [ 1, true ]
