@@ -9,6 +9,8 @@ Open to suggestions/push requests/whatever.
 
 ## Installation
 ```npm install aircrack-tool```
+Install aircrack-ng (the commands must be on the path).
+Debian: ```apt-get install aircrack-ng```
 
 ## Usage:
 ```
@@ -20,3 +22,4 @@ Usage: airtool flags <command>
     --reset: to use in case of errors/interruption of the process, removes monitor interfaces and (re)starts the network-manager
     --help: display this help
 ```
+

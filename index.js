@@ -1,6 +1,6 @@
 #!/usr/bin/env nodejs
 
-var
+// var <- this makes the variables inaccessible from some functions (?)
   wfscan = require('node-wifiscanner'),
   readline = require('readline'),
   command_exists = require('command-exists'),
